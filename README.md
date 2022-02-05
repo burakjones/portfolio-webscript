@@ -8,7 +8,7 @@ Merhaba, scriptimi kullandığın için teşekkürler!
 
 Kurulum'u seninle adım adım gerçekleştireceğiz.
 
-Winrar Şifresi: mineliascript
+# Winrar Şifresi: mineliascript
 
 ## 1 - Script adlı klasörün içindeki dosyaları webhostinginde htdocs - public_html olan yere at
 ## 2 - /admin/settings.php dosyasına gel ve en üstteki veritabanı bilgilerini kendine göre doldur.
