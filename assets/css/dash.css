@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar { background: #1a1a1a }
+::-webkit-scrollbar-thumb { background: #333333; border-radius: 10px; border: 1px solid #121212}
+.area {
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    border-radius: 40px;
+}
+.dark { background: #121212 }
+hr { background: gray }
+
+.nav-item {
+    background: #222;
+    margin: 0 10px;
+    border-left: 1px solid #666;
+    color: white;
+    transition: 0.5s;
+}
+.nav-item:hover { border-left: 1px solid #fff;     text-shadow: 0 0 10px #fff,
+0 0 20px #fff,
+0 0 40px #fff; }
+.nav-link { color: white }
+.nav-link:hover { color: white }
+
+.seviye,.firma-box {
+    background: #2b2b2b;
+    border: 2px solid #1a1a1a;
+    border-radius: 10px;
+}
+
+@keyframes instagram {
+    0% { color: #405DE6;; }
+    10% { color: #5851DB; }
+    20% { color: #833AB4; }
+    30% { color: #E1306C; }
+    40% { color: #FD1D1D; }
+    50% { color: #F77737; }
+    60% { color: #FCAF45; }
+    70% { color: #FFDC80; }
+    100% { color: #5851DB; }
+}
+@-webkit-keyframes instagram {
+    0% { color: #405DE6;; }
+    10% { color: #5851DB; }
+    20% { color: #833AB4; }
+    30% { color: #E1306C; }
+    40% { color: #FD1D1D; }
+    50% { color: #F77737; }
+    60% { color: #FCAF45; }
+    70% { color: #FFDC80; }
+    100% { color: #5851DB; }
+}
+@keyframes lira { 0% {color: white} 53% { color: lightsalmon} 80% {color: orange} 100% { color: white } }
+@-webkit-keyframes lira {  0% {color: white} 30% { color: lightsalmon} 80% {color: orange} 100% { color: white } }
+
+i { font-size: 20px; padding: 10px 0 10px 0; text-align: center }
+h4[class="instagram"] { animation: instagram 3s infinite; -webkit-animation: instagram 3s infinite}
+h4[class="discord"] { color: #7289da}
+h4[class="facebook"] { color: darkblue}
+h4[class="whatsapp"] { color: lightgreen}
+h4[class="github"] { color: white}
+h4[class="spotify"] { color: green}
+h4[class="papara"] { animation: lira 2s infinite; -webkit-animation: lira 2s infinite}

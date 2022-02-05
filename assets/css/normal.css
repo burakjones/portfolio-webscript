@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+html { scroll-behavior: smooth }
+
+::-webkit-scrollbar { background: #1a1a1a }
+::-webkit-scrollbar-thumb { background: #333333; border-radius: 10px; border: 1px solid #121212}
+
+.nav, .kutu { border-radius: 10px; background:#1a1a1a;}
+hr {  background: #2b2b2b; height: 40px }
+ul { list-style-type: none }
+.dark { background: #222 }
+.uzun { width: 100px }
+
+.area {
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    border-radius: 40px;
+}
+.nav {
+   position: relative;
+   top: 20px;
+    width: 500px;
+
+}
+.nav-item {
+    background: #222;
+    margin: 0 10px;
+    border-left: 1px solid #666;
+    color: white;
+    transition: 0.5s;
+}
+.nav-item:hover { border-left: 1px solid #fff;     text-shadow: 0 0 10px #fff,
+0 0 20px #fff,
+0 0 40px #fff; }
+.nav-link { color: white }
+.nav-link:hover { color: white }
+
+
+/*                  */
+/* Layouts - Profil */
+/*                  */
+/*.profil-imgs img { border-radius: 50% }*/
+.profil-social i { font-size:50px; }
+.profil-social a { transition: 0.5s}
+.profil-social a:hover { color: white;}
+
+
+/* Profil - Social */
+@keyframes instagram {
+    0% { color: #405DE6;; }
+    10% { color: #5851DB; }
+    20% { color: #833AB4; }
+    30% { color: #E1306C; }
+    40% { color: #FD1D1D; }
+    50% { color: #F77737; }
+    60% { color: #FCAF45; }
+    70% { color: #FFDC80; }
+    100% { color: #5851DB; }
+}
+@-webkit-keyframes instagram {
+0% { color: #405DE6;; }
+10% { color: #5851DB; }
+20% { color: #833AB4; }
+30% { color: #E1306C; }
+40% { color: #FD1D1D; }
+50% { color: #F77737; }
+60% { color: #FCAF45; }
+70% { color: #FFDC80; }
+100% { color: #5851DB; }
+}
+@keyframes lira { 0% {color: white} 53% { color: lightsalmon} 80% {color: orange} 100% { color: white } }
+@-webkit-keyframes lira {  0% {color: white} 30% { color: lightsalmon} 80% {color: orange} 100% { color: white } }
+
+.social-1, .social-2 {  top:10px; margin: 40px 20px 20px 20px;width: auto; max-width: 350px;height: auto;background: #2b2b2b }
+i { font-size: 20px; padding: 10px 0 10px 0; text-align: center }
+a[class="instagram"] { animation: instagram 3s infinite; -webkit-animation: instagram 3s infinite}
+a[class="discord"] { color: #7289da}
+a[class="whatsapp"] { color: lightgreen}
+a[class="facebook"] { color: darkblue}
+a[class="github"] { color: white}
+a[class="spotify"] { color: green}
+a[class="papara"] { animation: lira 2s infinite; -webkit-animation: lira 2s infinite}
+.social-1 a, .social-2 a {
+    margin: 4px;
+    transition: 0.5s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+.social-1 a:hover, .social-2 a:hover { color: white }
+
+/*                    */
+/* Layouts - Batigame */
+/*                    */
+
+.batigame-hd { width: auto; height: auto;  border-radius: 20px; }
+.batigame-img { width: 150px; height: 150px; background: #232323 }
+.batigame-social { width: auto; height: auto; }
+.batigame-social a { margin: 12px; transition: 0.5s }
+.batigame-social a:hover { color: white;  text-shadow: 0 0 10px #fff,
+0 0 20px #fff,
+0 0 40px #fff; text-decoration: none}
+
+.batigame-contact a { color: white; font-family: 'Poppins', sans-serif }
+
+
+/*                    */
+/* Layouts - Blog     */
+/*                    */
+.blog { background: #1a1a1a; border-radius: 10px; padding-top: 10px }
+.blog-text { width: 400px;  padding-bottom: 20px }
+
+
