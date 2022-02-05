@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^admin/(/?)$ admin/?sayfa=index [L]
+RewriteRule ^admin/duzenle(/?)$ admin/index.php?sayfa=index [L]
+RewriteRule ^admin/duzenle/([0-9]+)(/?)$ admin/index.php?sayfa=duzenle&id=$1 [L]
+RewriteRule ^admin/sil(/?)$ admin/index.php?sayfa=index [L]
+RewriteRule ^admin/sil/([0-9]+)(/?)$ admin/index.php?sayfa=sil&id=$1 [L]
+RewriteRule ^admin/silindi/([0-9]+)(/?)$ admin/index.php?sayfa=silindi&id=$1 [L]
+RewriteRule ^admin/seviye/sil/([0-9]+)(/?)$ admin/index.php?sayfa=seviye_sil&id=$1 [L]
+RewriteRule ^admin/seviye/silindi/([0-9]+)(/?)$ admin/index.php?sayfa=seviye_silindi&id=$1 [L]
+RewriteRule ^admin/seviye/silindi(/?)$ admin/index.php?sayfa=index [L]
+RewriteRule ^admin/seviye(/?)$ admin/
+RewriteRule ^admin/firma/(/?)$ admin/
+RewriteRule ^admin/firma/sil/([0-9]+)(/?)$ admin/index.php?sayfa=firmasil&id=$1 [L]
+RewriteRule ^admin/firma/silindi/([0-9]+)(/?)$ admin/index.php?sayfa=firmasilindi&id=$1 [L]
+
+RewriteRule ^giris$ admin/?sayfa=index
+RewriteRule ^cikis-yap$ admin/logout.php
+RewriteRule ^discord$ https://batigame.com/discord
