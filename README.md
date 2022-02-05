@@ -1,4 +1,4 @@
-# portfolio-webscript
+# Kişisel Portfolio Webscript
 Kişisel Websiteniz için kullanımı kolay webscript.
 
 #####################################################
