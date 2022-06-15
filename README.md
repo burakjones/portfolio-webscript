@@ -17,7 +17,7 @@ Kurulum'u seninle adım adım gerçekleştireceğiz.
 ## 6 - Hayırlı olsun.
 
 ## Eğer bir sorun çıkar ise bana discorddan ulaşabilirsin.
-## burakö#1337 - ID'm
+## burakftw#0551
 
 ## https://discord.com/channels/@me/449274561935048714
 ## linkden direk bana yazabilirsin.
