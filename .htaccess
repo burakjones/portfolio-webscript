@@ -1,5 +1,6 @@
 RewriteEngine On
 RewriteBase /
+RewriteRule ^admin(/?)$ admin/?sayfa=index [L]
 RewriteRule ^admin/(/?)$ admin/?sayfa=index [L]
 RewriteRule ^admin/duzenle(/?)$ admin/index.php?sayfa=index [L]
 RewriteRule ^admin/duzenle/([0-9]+)(/?)$ admin/index.php?sayfa=duzenle&id=$1 [L]
@@ -16,4 +17,3 @@ RewriteRule ^admin/firma/silindi/([0-9]+)(/?)$ admin/index.php?sayfa=firmasilind
 
 RewriteRule ^giris$ admin/?sayfa=index
 RewriteRule ^cikis-yap$ admin/logout.php
-RewriteRule ^discord$ https://batigame.com/discord
