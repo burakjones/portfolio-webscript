@@ -20,4 +20,4 @@ Kurulum'u seninle adım adım gerçekleştireceğiz.
 ## burakftw#0551
 
 ## https://discord.com/channels/@me/449274561935048714
-## linkden direk bana yazabilirsin.
+## linkden direkt bana yazabilirsin.
