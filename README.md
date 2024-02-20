@@ -17,7 +17,7 @@ Kurulum'u seninle adım adım gerçekleştireceğiz.
 ## 6 - Hayırlı olsun.
 
 ## Eğer bir sorun çıkar ise bana discorddan ulaşabilirsin.
-## burak4ever#5827
+## @burakogtcn
 
 ## https://discord.com/channels/@me/449274561935048714
 ## linkden direkt bana yazabilirsin.
